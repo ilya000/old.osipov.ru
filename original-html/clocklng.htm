@@ -1,0 +1,144 @@
+<HTML>
+<Head><title>Free CLOCK'S</title></Head>
+<BODY bgcolor=#EEEEdd text=#400000 link=#cc0000 vlink=#404010 alink=#F03000>
+
+<Center><TABLE border=0 align=center width=780 height=63 bgcolor=#e5e5cc><TR><TD>
+<p align=right>  
+</p></TABLE></Center>
+
+<br>
+<center>
+<Table border=1><tr><td>
+<APPLET CODE=Clock.class Width=54 Height=72>
+<PARAM NAME="clock" VALUE="image=round1.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#880088 handcolor=#FFFFFF textsize=12">
+Java not found.
+</APPLET>
+</td></tr></Table>
+</center>
+
+<center><font size=+2><i>Синтаксис часов.</i></font></center><br>
+<center><a href="clock.htm">
+Вернуться на главную страницу часов.
+</a></center>
+<br>
+
+<Table border=3 align=center><tr><td>
+&lt;APPLET CODE=Clock.class codebase="http://www.ilya.nn.ru/" Width=54 Height=72&gt;<br>
+&lt;PARAM NAME="clock" VALUE="image=round1.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#880088 handcolor=#FFFFFF textsize=12"&gt;<br>
+Java not found.
+&lt;/APPLET&gt;<br>
+</td></tr></Table>
+
+<br>Где под (PARAM NAME="clock" VALUE=) - пишется строка параметров, которая может содержать следующие ключевые слова:
+<br><br> Параметры: *
+<br>&nbsp; image=xxxxxx.gif - картинка используемая в качестве циферблата 
+<br>&nbsp; bgcolor=#RRGGBB - цвет фона часов, где RR,GG,BB - шеснадцатиричные значения красного,зеленого и синей компоненты цвета
+<br>&nbsp; handcolor=#RRGGBB - цвет часовых стрелок.
+<br>&nbsp; textcolor=#RRGGBB - цвет надписей.
+<br>&nbsp; shadow - если тексту нужна тень.
+<br>&nbsp; shadowcolor=#RRGGBB - цвет тени.
+<br>&nbsp; textsize=xx - высота текстовых надписей, где xx - десятичное значение в диапазоне 5..25.
+<br>&nbsp; calc - отладочный параметр, рассчитывающий Width и Height для этого апплета.
+<br><b>
+&nbsp; timeoffset=xxx - Подстройка времени.
+</b> (параметр добавлен по многочисленным просьбам) где ххх - относительное время в минутах, на которое нужно подправить часы.
+ Например  timeoffset=180 или timeoffset=-60
+<br>
+<br>* Любой из параметров можно опустить.
+<br>
+<br>Как с этим работать? - Вам просто нужно переместить текст помещенный в рамку, в текст вашей страницы, попутно настроив параметры под ваш стиль.
+<br>
+<br>Существует только одно серьезное ограничение: 
+циферблатные картинки можно использовать только из моей коллекции.
+<br>На сегодня доступны:
+<br>&nbsp; dashb1.gif, dashb2.gif, dashb3.gif ... dashb8.gif - циферблаты из DashBoard.
+<br>&nbsp; view.gif
+<br>&nbsp; sunset.gif
+<br>&nbsp; round1.gif
+<br>&nbsp; globe.gif
+<br>&nbsp; nz.gif
+<br>&nbsp; rol.gif
+<br> Если же вас не устраивает ни одна из перечисленных нарисуйте свою 
+и пошлите <a href=mailto:ilya000@usa.net>мне</a>. 
+Если она будет интересна я обязательно добавлю ее в 
+коллекцию и ссылку на вас.
+<br> 
+
+
+
+<center><font size=+2><i>Несколько примеров.</i></font></center><br>
+
+<Table border=1>
+<tr><td>
+<APPLET CODE=Clock.class Width=68 Height=84>
+<PARAM NAME="clock" VALUE="image=rol.gif shadowcolor=#444444
+ bgcolor=#FFFFFF textcolor=#999900 handcolor=#000000 textsize=12  timeoffset=180">
+Java not found.
+</APPLET>
+</td><td>
+&lt;APPLET CODE=Clock.class codebase="http://www.ilya.nn.ru/" Width=68 Height=84&gt;<br>
+&lt;PARAM NAME="clock" VALUE="image=rol.gif shadowcolor=#444444
+ bgcolor=#FFFFFF textcolor=#999900 handcolor=#000000 textsize=12 timeoffset=180"&gt;<br>
+Java not found.
+&lt;/APPLET&gt;<br>
+</td></tr></Table>
+
+
+<Table border=1>
+<tr><td>
+<APPLET CODE=Clock.class Width=44 Height=59>
+<PARAM NAME="clock" VALUE="image=dashb3.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#004444 handcolor=#004444 textsize=10">
+Java not found.
+</APPLET>
+</td><td>
+&lt;APPLET CODE=Clock.class codebase="http://www.ilya.nn.ru/" Width=44 Height=59&gt;<br>
+&lt;PARAM NAME="clock" VALUE="image=dashb3.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#004444 handcolor=#004444 textsize=10"&gt;<br>
+Java not found.
+&lt;/APPLET&gt;<br>
+</td></tr></Table>
+
+<Table border=1>
+<tr><td>
+<APPLET CODE=Clock.class Width=57 Height=66>
+<PARAM NAME="clock" VALUE="image=globe.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#004444 handcolor=#FF0000 textsize=11">
+Java not found.
+</APPLET>
+</td><td>
+&lt;APPLET CODE=Clock.class codebase="http://www.ilya.nn.ru/" Width=44 Height=59&gt;<br>
+&lt;PARAM NAME="clock" VALUE="image=globe.gif shadowcolor=#888877
+ bgcolor=#EEEEdd textcolor=#004444 handcolor=#FF0000 textsize=11"&gt;<br>
+Java not found.
+&lt;/APPLET&gt;<br>
+</td></tr></Table>
+
+<center>
+<a href="clock1.htm">
+Следующие три примера.
+</a>
+</center>
+<br>
+
+
+<!!!p Специальное предложение для администраторов крупных серверов: " Я берусь разработать для специально  вашего сайта уникальные часы на основе вашего логотипа и стиля, причем совершенно бесплатно, мне просто будет приятно видеть свои часы на действительно популярном сервере".>
+
+
+<br>
+
+
+
+<br><img src="eye.gif" align=right hspace=0> <hr> <p align=right><font size=2 color=#003300><tt>
+Created 24'09.97 
+<script language="JavaScript"><!--
+document.write("Updated ("+document.lastModified+")");
+// --></script>
+</tt></font>
+
+
+</BODY>
+</HTML>
+
