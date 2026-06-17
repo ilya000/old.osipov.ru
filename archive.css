@@ -11,3 +11,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Двухколоночная раскладка для страниц с левой панелью (nav + copyright).
+   Оригинал держал панель плавающей и распирал её десятками <br> под ширину
+   ~760px; на широких мониторах это ломало подвал. Делаем панель настоящей
+   фиксированной левой колонкой — контент всегда справа, без дыр и съездов. */
+body.haspanel { position: relative; padding-left: 168px; box-sizing: border-box; }
+body.haspanel .sidepanel { position: absolute; left: 0; top: 0; width: 150px; float: none; }
