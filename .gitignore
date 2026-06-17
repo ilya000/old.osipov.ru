@@ -1,0 +1,7 @@
+_backup/
+.DS_Store
+*.exe
+*.dll
+*.GID
+*.HLP
+*.INI

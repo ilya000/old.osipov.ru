@@ -1,0 +1,453 @@
+# old.osipov.ru restoration audit
+
+Root: /Users/ilya000/Documents/Codex/2026-06-15/osipov-ru/outputs/old-osipov-ru-restored
+Files saved: 215
+Total size: 5597288 bytes
+HTML pages: 56
+Files recovered from local archive: 132
+
+## File types saved
+- .arj: 1
+- .class: 1
+- .gif: 47
+- .htm: 54
+- .html: 2
+- .jpg: 8
+- .js: 1
+- .md: 1
+- .zip: 100
+
+## Still missing local references
+- Total: 35
+- .cgi: 1
+- .class: 1
+- .gif: 23
+- .htm: 1
+- .ru: 1
+- .zip: 8
+
+- hookd.htm: `bpswd.gif` -> `bpswd.gif`
+- iLya.htm: `/cgi-bin/Count.cgi?display=clock|dd=A|ft=0|tr=T|trgb=000000|srgb=00FF00|prgb=330000` -> `cgi-bin/Count.cgi`
+- clock1.htm: `clock2.htm` -> `clock2.htm`
+- c_conkit.htm: `Clockconkit.class` -> `Clockconkit.class`
+- clocklng.htm: `dashb3.gif` -> `dashb3.gif`
+- clock1.htm: `dashb4.gif` -> `dashb4.gif`
+- clocklng.htm: `globe.gif` -> `globe.gif`
+- exchen.htm: `globe.gif` -> `globe.gif`
+- hookd.htm: `hookdump.zip` -> `hookdump.zip`
+- hookde.htm: `hookdump.zip` -> `hookdump.zip`
+- mailmy.htm: `NZ.GIF` -> `NZ.GIF`
+- ref/index.html: `k_io_100.zip` -> `ref/k_io_100.zip`
+- ref/index.html: `k_io_63.zip` -> `ref/k_io_63.zip`
+- ref/index.html: `k_io_96.zip` -> `ref/k_io_96.zip`
+- ref/index.html: `k_io_97.zip` -> `ref/k_io_97.zip`
+- ref/index.html: `k_io_98.zip` -> `ref/k_io_98.zip`
+- ref/index.html: `k_io_99.zip` -> `ref/k_io_99.zip`
+- clock.htm: `rol.gif` -> `rol.gif`
+- clocklng.htm: `rol.gif` -> `rol.gif`
+- index.html: `rol.gif` -> `rol.gif`
+- t_egipt.htm: `rol.gif` -> `rol.gif`
+- t_litva.htm: `rol.gif` -> `rol.gif`
+- t_tkod.htm: `rol.gif` -> `rol.gif`
+- travel.htm: `rol.gif` -> `rol.gif`
+- c_conkit.htm: `round1.gif` -> `round1.gif`
+- clocklng.htm: `round1.gif` -> `round1.gif`
+- hookd.htm: `round1.gif` -> `round1.gif`
+- hookde.htm: `round1.gif` -> `round1.gif`
+- prog.htm: `round1.gif` -> `round1.gif`
+- proge.htm: `round1.gif` -> `round1.gif`
+- servers.htm: `round1.gif` -> `round1.gif`
+- clock1.htm: `sunset.gif` -> `sunset.gif`
+- clock1.htm: `view.gif` -> `view.gif`
+- t_tkod.htm: `www.ilya.nn.ru` -> `www.ilya.nn.ru`
+- clocklng.htm: `xxxxxx.gif` -> `xxxxxx.gif`
+
+## External hosts referenced
+- www.ilya.nn.ru: 55
+- www.inforis.ru: 13
+- www.linkexchange.ru: 12
+- gosha.diasoft.ru: 12
+- www.bizlink.ru: 9
+- counter.rambler.ru: 9
+- www.other-world.com: 4
+- www.guestbook.de: 3
+- www.anekdot.nn.ru: 3
+- www.chat.ru: 3
+- counter.nn.ru: 2
+- www.nn.ru: 2
+- www.hotmail.com: 2
+- www.filesearch.ru: 1
+- www.halyava.ru: 1
+- www.yi.com: 1
+- www.geocities.com: 1
+- www.freeyellow.com: 1
+- www.vibor.ru: 1
+- www.i-connect.ru: 1
+- www.pochta.ru: 1
+- www.usa.net: 1
+- mail.yahoo.com: 1
+- www.rocketmail.com: 1
+- www.iname.com: 1
+- www.pobox.com: 1
+- www.mailexcite.com: 1
+- www.141.com: 1
+- www.starmail.com: 1
+- www.reporters.net: 1
+- box100.com: 1
+- www.yahoo.com: 1
+- www.kis.ru: 1
+- www.sci-nnov.ru: 1
+- www.kreml.nnov.ru: 1
+- www.machaon.ru: 1
+- ftp.kis.ru: 1
+
+## Local archive sources used
+- 18.gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/18.gif
+- HUMG02.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg02.gif
+- HUMG03.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg03.gif
+- HUMG04.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg04.gif
+- HUMG05.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg05.gif
+- HUMG06.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg06.gif
+- HUMG07.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg07.gif
+- HUMG08.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg08.gif
+- HUMG09.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg09.gif
+- HUMG10.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg10.gif
+- HUMG11.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg11.gif
+- HUMG12.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg12.gif
+- HUMG13.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg13.gif
+- HUMG14.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg14.gif
+- HUMG15.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg15.gif
+- HUMG16.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg16.gif
+- HUMG17.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg17.gif
+- HUMG18.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg18.gif
+- HUMG19.GIF <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/humg19.gif
+- clock.js <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/clock.js
+- clock1.htm <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/clock1.htm
+- fon(1).gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/fon(1).gif
+- hide.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/hide.zip
+- hookd.htm <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/hookd.htm
+- hookde.htm <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/hookde.htm
+- i-net.gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/i-net.gif
+- io1.jpg <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/io1.jpg
+- io2.jpg <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/io2.jpg
+- io3.jpg <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/io3.jpg
+- kr2.gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/kr2.gif
+- ln.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/ln.zip
+- main.gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/main.gif
+- nn.htm <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/nn.htm
+- numgrid.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/numgrid.zip
+- pero1.gif <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/pero1.gif
+- ref/k_io_01.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_01.ZIP
+- ref/k_io_02.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_02.ZIP
+- ref/k_io_03.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_03.ZIP
+- ref/k_io_04.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_04.ZIP
+- ref/k_io_05.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_05.ZIP
+- ref/k_io_06.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_06.ZIP
+- ref/k_io_07.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_07.ZIP
+- ref/k_io_08.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_08.ZIP
+- ref/k_io_09.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_09.ZIP
+- ref/k_io_10.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_10.ZIP
+- ref/k_io_11.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_11.ZIP
+- ref/k_io_12.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_12.ZIP
+- ref/k_io_13.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_13.ZIP
+- ref/k_io_14.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_14.ZIP
+- ref/k_io_15.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_15.ZIP
+- ref/k_io_16.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_16.ZIP
+- ref/k_io_17.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_17.ZIP
+- ref/k_io_18.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_18.ZIP
+- ref/k_io_19.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_19.ZIP
+- ref/k_io_20.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_20.ZIP
+- ref/k_io_21.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_21.ZIP
+- ref/k_io_22.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_22.ZIP
+- ref/k_io_23.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_23.ZIP
+- ref/k_io_24.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_24.ZIP
+- ref/k_io_25.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_25.ZIP
+- ref/k_io_26.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_26.ZIP
+- ref/k_io_27.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_27.ZIP
+- ref/k_io_28.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_28.ZIP
+- ref/k_io_29.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_29.ZIP
+- ref/k_io_30.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_30.ZIP
+- ref/k_io_31.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_31.ZIP
+- ref/k_io_32.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_32.ZIP
+- ref/k_io_33.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_33.ZIP
+- ref/k_io_34.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_34.ZIP
+- ref/k_io_35.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_35.ZIP
+- ref/k_io_36.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_36.ZIP
+- ref/k_io_37.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_37.ZIP
+- ref/k_io_38.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_38.ZIP
+- ref/k_io_39.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_39.ZIP
+- ref/k_io_40.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_40.ZIP
+- ref/k_io_41.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_41.ZIP
+- ref/k_io_42.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_42.ZIP
+- ref/k_io_43.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_43.ZIP
+- ref/k_io_44.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_44.ZIP
+- ref/k_io_45.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_45.ZIP
+- ref/k_io_46.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_46.ZIP
+- ref/k_io_47.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_47.ZIP
+- ref/k_io_48.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_48.ZIP
+- ref/k_io_49.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_49.ZIP
+- ref/k_io_50.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_50.ZIP
+- ref/k_io_51.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_51.ZIP
+- ref/k_io_52.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_52.ZIP
+- ref/k_io_53.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_53.ZIP
+- ref/k_io_54.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_54.ZIP
+- ref/k_io_55.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_55.ZIP
+- ref/k_io_56.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_56.ZIP
+- ref/k_io_57.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_57.ZIP
+- ref/k_io_58.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_58.ZIP
+- ref/k_io_59.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_59.ZIP
+- ref/k_io_60.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_60.ZIP
+- ref/k_io_61.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_61.ZIP
+- ref/k_io_62.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_62.ZIP
+- ref/k_io_64.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_64.ZIP
+- ref/k_io_65.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_65.ZIP
+- ref/k_io_66.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_66.ZIP
+- ref/k_io_67.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_67.ZIP
+- ref/k_io_68.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_68.ZIP
+- ref/k_io_69.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_69.ZIP
+- ref/k_io_70.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_70.ZIP
+- ref/k_io_71.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_71.ZIP
+- ref/k_io_72.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_72.ZIP
+- ref/k_io_73.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_73.ZIP
+- ref/k_io_74.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_74.ZIP
+- ref/k_io_75.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_75.ZIP
+- ref/k_io_76.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_76.ZIP
+- ref/k_io_77.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_77.ZIP
+- ref/k_io_78.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_78.ZIP
+- ref/k_io_79.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_79.ZIP
+- ref/k_io_80.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_80.ZIP
+- ref/k_io_81.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_81.ZIP
+- ref/k_io_82.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_82.ZIP
+- ref/k_io_83.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_83.ZIP
+- ref/k_io_84.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_84.ZIP
+- ref/k_io_85.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_85.ZIP
+- ref/k_io_86.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_86.ZIP
+- ref/k_io_87.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_87.ZIP
+- ref/k_io_88.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_88.ZIP
+- ref/k_io_89.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_89.ZIP
+- ref/k_io_90.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_90.ZIP
+- ref/k_io_91.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_91.ZIP
+- ref/k_io_92.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_92.ZIP
+- ref/k_io_93.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_93.ZIP
+- ref/k_io_94.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_94.ZIP
+- ref/k_io_95.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_95.ZIP
+- ref/k_io_dir.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/REF/K_IO_DIR.ZIP
+- traymenu.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/traymenu.zip
+- trumphck.zip <- /Users/ilya000/Dropbox/D-Documents/Архив/2007/iLya/From NNRUComp 12-06-2004/Sites/ILYA.NN.RU/trumphck.zip
+
+## Saved tree
+- 18.gif (2102 bytes)
+- a_a_r_f.htm (11763 bytes)
+- a_aero.htm (7440 bytes)
+- a_alkgol.htm (16752 bytes)
+- a_armi.htm (23160 bytes)
+- a_engl.htm (10529 bytes)
+- a_eros.htm (71963 bytes)
+- a_evrey.htm (22401 bytes)
+- a_gai.htm (9693 bytes)
+- a_girl.htm (16857 bytes)
+- a_gogi.htm (15283 bytes)
+- a_gomos.htm (10980 bytes)
+- a_h_n.htm (17252 bytes)
+- a_hp.htm (31411 bytes)
+- a_icrazy.htm (7915 bytes)
+- a_liter.htm (10615 bytes)
+- a_m_and_j.htm (30697 bytes)
+- a_med.htm (31849 bytes)
+- a_ment.htm (8621 bytes)
+- a_narko.htm (27595 bytes)
+- a_nemcc.htm (7698 bytes)
+- a_oh_rb.htm (8520 bytes)
+- a_p_hate.htm (2109 bytes)
+- a_p_humg.htm (1716 bytes)
+- a_pb.htm (9060 bytes)
+- a_relig.htm (16956 bytes)
+- a_restr.htm (4869 bytes)
+- a_sadist.htm (11268 bytes)
+- a_skazk.htm (7618 bytes)
+- a_soc.htm (22390 bytes)
+- a_stud.htm (24006 bytes)
+- a_vova.htm (27100 bytes)
+- a_zveri.htm (34456 bytes)
+- anec.htm (6426 bytes)
+- anec_c.htm (44910 bytes)
+- b100x60.gif (6031 bytes)
+- b128x40.gif (2773 bytes)
+- ball.gif (1365 bytes)
+- beer.htm (30427 bytes)
+- blinkex.gif (6983 bytes)
+- c_conkit.htm (1966 bytes)
+- Clock.class (8634 bytes)
+- clock.htm (3427 bytes)
+- clock.js (375 bytes)
+- clock1.htm (2792 bytes)
+- clocklng.htm (5141 bytes)
+- clocks.gif (5661 bytes)
+- dali_aut.jpg (12579 bytes)
+- dali_skr.gif (3834 bytes)
+- enter.gif (3766 bytes)
+- europe.gif (9834 bytes)
+- exchen.htm (4035 bytes)
+- eye.gif (2819 bytes)
+- fon(1).gif (2306 bytes)
+- fon.gif (2306 bytes)
+- foto.htm (960 bytes)
+- foto/cz_1.jpg (41626 bytes)
+- foto/cz_2.jpg (25061 bytes)
+- foto/cz_4.jpg (45878 bytes)
+- gerb-io.jpg (27365 bytes)
+- hide.zip (5070 bytes)
+- hookd.htm (4434 bytes)
+- hookde.htm (4236 bytes)
+- HUMG02.GIF (10715 bytes)
+- HUMG03.GIF (12410 bytes)
+- HUMG04.GIF (14345 bytes)
+- HUMG05.GIF (10104 bytes)
+- HUMG06.GIF (8803 bytes)
+- HUMG07.GIF (13175 bytes)
+- HUMG08.GIF (2605 bytes)
+- HUMG09.GIF (11550 bytes)
+- HUMG10.GIF (5404 bytes)
+- HUMG11.GIF (8792 bytes)
+- HUMG12.GIF (10613 bytes)
+- HUMG13.GIF (12959 bytes)
+- HUMG14.GIF (16555 bytes)
+- HUMG15.GIF (10899 bytes)
+- HUMG16.GIF (12114 bytes)
+- HUMG17.GIF (5910 bytes)
+- HUMG18.GIF (15073 bytes)
+- HUMG19.GIF (7187 bytes)
+- i-net.gif (4208 bytes)
+- iLya.htm (6755 bytes)
+- index.html (7516 bytes)
+- io1.jpg (11720 bytes)
+- io2.jpg (17188 bytes)
+- io3.jpg (12417 bytes)
+- kr1.gif (7931 bytes)
+- kr2.gif (11563 bytes)
+- line.gif (479 bytes)
+- line3.gif (1333 bytes)
+- ln.zip (8472 bytes)
+- mail.gif (3262 bytes)
+- mailmy.htm (2536 bytes)
+- main.gif (13715 bytes)
+- mega_nn.arj (245395 bytes)
+- new.gif (26402 bytes)
+- nn.htm (1741 bytes)
+- nph.gif (4042 bytes)
+- numgrid.zip (8145 bytes)
+- p8x6t.gif (7958 bytes)
+- pero1.gif (1813 bytes)
+- prog.htm (7414 bytes)
+- proge.htm (5248 bytes)
+- qwot.htm (11725 bytes)
+- R_CYAN.GIF (925 bytes)
+- R_GREEN.GIF (886 bytes)
+- R_RED.GIF (527 bytes)
+- R_YELL.GIF (925 bytes)
+- ref/index.html (11520 bytes)
+- ref/k_io_01.zip (34443 bytes)
+- ref/k_io_02.zip (14574 bytes)
+- ref/k_io_03.zip (8738 bytes)
+- ref/k_io_04.zip (22997 bytes)
+- ref/k_io_05.zip (55484 bytes)
+- ref/k_io_06.zip (9703 bytes)
+- ref/k_io_07.zip (28561 bytes)
+- ref/k_io_08.zip (44807 bytes)
+- ref/k_io_09.zip (5776 bytes)
+- ref/k_io_10.zip (21660 bytes)
+- ref/k_io_11.zip (48124 bytes)
+- ref/k_io_12.zip (77085 bytes)
+- ref/k_io_13.zip (15269 bytes)
+- ref/k_io_14.zip (7830 bytes)
+- ref/k_io_15.zip (21377 bytes)
+- ref/k_io_16.zip (4710 bytes)
+- ref/k_io_17.zip (43571 bytes)
+- ref/k_io_18.zip (15069 bytes)
+- ref/k_io_19.zip (5162 bytes)
+- ref/k_io_20.zip (92136 bytes)
+- ref/k_io_21.zip (10281 bytes)
+- ref/k_io_22.zip (21720 bytes)
+- ref/k_io_23.zip (18934 bytes)
+- ref/k_io_24.zip (14497 bytes)
+- ref/k_io_25.zip (18238 bytes)
+- ref/k_io_26.zip (44736 bytes)
+- ref/k_io_27.zip (21852 bytes)
+- ref/k_io_28.zip (75323 bytes)
+- ref/k_io_29.zip (20382 bytes)
+- ref/k_io_30.zip (28058 bytes)
+- ref/k_io_31.zip (82694 bytes)
+- ref/k_io_32.zip (26067 bytes)
+- ref/k_io_33.zip (12991 bytes)
+- ref/k_io_34.zip (16526 bytes)
+- ref/k_io_35.zip (16695 bytes)
+- ref/k_io_36.zip (56250 bytes)
+- ref/k_io_37.zip (16609 bytes)
+- ref/k_io_38.zip (9528 bytes)
+- ref/k_io_39.zip (28350 bytes)
+- ref/k_io_40.zip (32756 bytes)
+- ref/k_io_41.zip (51610 bytes)
+- ref/k_io_42.zip (28692 bytes)
+- ref/k_io_43.zip (74869 bytes)
+- ref/k_io_44.zip (40818 bytes)
+- ref/k_io_45.zip (45196 bytes)
+- ref/k_io_46.zip (34233 bytes)
+- ref/k_io_47.zip (8583 bytes)
+- ref/k_io_48.zip (29270 bytes)
+- ref/k_io_49.zip (26670 bytes)
+- ref/k_io_50.zip (29516 bytes)
+- ref/k_io_51.zip (27056 bytes)
+- ref/k_io_52.zip (21243 bytes)
+- ref/k_io_53.zip (210835 bytes)
+- ref/k_io_54.zip (17326 bytes)
+- ref/k_io_55.zip (28674 bytes)
+- ref/k_io_56.zip (12335 bytes)
+- ref/k_io_57.zip (29823 bytes)
+- ref/k_io_58.zip (35768 bytes)
+- ref/k_io_59.zip (21664 bytes)
+- ref/k_io_60.zip (24000 bytes)
+- ref/k_io_61.zip (21196 bytes)
+- ref/k_io_62.zip (15604 bytes)
+- ref/k_io_64.zip (43205 bytes)
+- ref/k_io_65.zip (43198 bytes)
+- ref/k_io_66.zip (41331 bytes)
+- ref/k_io_67.zip (142951 bytes)
+- ref/k_io_68.zip (37362 bytes)
+- ref/k_io_69.zip (32591 bytes)
+- ref/k_io_70.zip (6147 bytes)
+- ref/k_io_71.zip (17749 bytes)
+- ref/k_io_72.zip (3942 bytes)
+- ref/k_io_73.zip (15068 bytes)
+- ref/k_io_74.zip (17188 bytes)
+- ref/k_io_75.zip (103411 bytes)
+- ref/k_io_76.zip (22557 bytes)
+- ref/k_io_77.zip (10594 bytes)
+- ref/k_io_78.zip (21849 bytes)
+- ref/k_io_79.zip (57194 bytes)
+- ref/k_io_80.zip (53848 bytes)
+- ref/k_io_81.zip (55858 bytes)
+- ref/k_io_82.zip (27068 bytes)
+- ref/k_io_83.zip (59356 bytes)
+- ref/k_io_84.zip (61697 bytes)
+- ref/k_io_85.zip (43768 bytes)
+- ref/k_io_86.zip (13674 bytes)
+- ref/k_io_87.zip (227244 bytes)
+- ref/k_io_88.zip (28935 bytes)
+- ref/k_io_89.zip (251189 bytes)
+- ref/k_io_90.zip (8687 bytes)
+- ref/k_io_91.zip (113072 bytes)
+- ref/k_io_92.zip (62706 bytes)
+- ref/k_io_93.zip (46107 bytes)
+- ref/k_io_94.zip (20451 bytes)
+- ref/k_io_95.zip (70791 bytes)
+- ref/k_io_dir.zip (4887 bytes)
+- RESTORATION_AUDIT.md (11604 bytes)
+- servers.htm (5379 bytes)
+- t_egipt.htm (10448 bytes)
+- t_litva.htm (10857 bytes)
+- t_tkod.htm (41684 bytes)
+- tasto.gif (3685 bytes)
+- travel.htm (3060 bytes)
+- traymenu.zip (232386 bytes)
+- trumphck.zip (4990 bytes)
+- under.gif (4338 bytes)
