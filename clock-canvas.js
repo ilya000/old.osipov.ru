@@ -122,6 +122,8 @@
   }
 
   function initOne(canvas) {
+    // повторный вызов (например, из конструктора) — снять старый таймер
+    if (canvas.__clockTimer) { clearInterval(canvas.__clockTimer); }
     var p = parseParams(canvas.getAttribute('data-clock'));
     var img = null;
     if (p.image) {
@@ -131,13 +133,17 @@
     var draw = makeDrawer(canvas, p, img);
     if (img) { img.onload = draw; img.onerror = draw; }
     draw();
-    setInterval(draw, 1000);
+    canvas.__clockTimer = setInterval(draw, 1000);
   }
 
   function initAll() {
     var list = document.querySelectorAll('canvas.ilya-clock');
     for (var i = 0; i < list.length; i++) initOne(list[i]);
   }
+
+  // Публичная точка входа — конструктор часов (clock-kit.js) перерисовывает
+  // предпросмотр, меняя data-clock и вызывая IlyaClock.start(canvas).
+  window.IlyaClock = { start: initOne, parse: parseParams };
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initAll);

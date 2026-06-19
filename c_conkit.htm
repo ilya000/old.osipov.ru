@@ -20,7 +20,7 @@
 <center>
 
 <Table border=1 bgcolor=#E0E0E0><tr><td>
-<!-- [ОРИГИНАЛ 1997, автор iLya] Ниже — исходный Java-апплет-конструктор Clockconkit.class. Не работает в современных браузерах; сохранён как история (класс в папке original-java/). Интерактивный конструктор намеренно не реконструирован — это была среда сборки часов, а не сами часы.
+<!-- [ОРИГИНАЛ 1997, автор iLya] Ниже — исходный Java-апплет-конструктор Clockconkit.class. Не работает в современных браузерах; сохранён как история (класс в папке original-java/). Рабочий интерактивный конструктор ниже — его реконструкция на JS (clock-kit.js).
 <APPLET CODE=Clockconkit.class Width=620 Height=220>
 <PARAM NAME="images" VALUE="dashb1.gif;dashb2.gif;dashb3.gif,dashb4.gif,dashb5.gif,dashb6.gif,dashb7.gif,dashb8.gif view.gif sunset.gif,round1.gif,globe.gif,nz.gif,
 rol.gif,comp.gif,incomb.gif">
@@ -29,19 +29,10 @@ Java not found.
 -->
 </td></tr></Table>
 
-<Table border=1 bgcolor=#FFFFFF>
-<tr><td>
-<!-- [ОРИГИНАЛ 1997, автор iLya] Ниже — исходный Java-апплет Clock.class. Не работает в современных браузерах (поддержка Java-апплетов прекращена ~2017); сохранён как история, сам класс лежит в папке original-java/. Живые часы под этим комментарием — авто-реконструкция на JS (clock-canvas.js) по строкам байт-кода класса.
-<APPLET CODE=Clock.class Width=100 Height=100>
-<PARAM NAME="clock" VALUE="image=round1.gif shadowcolor=#888877
- bgcolor=#EEEEdd textcolor=#FF0088 handcolor=#FFFFFF textsize=12">
-Java not found.
-</APPLET>
--->
-<canvas class="ilya-clock" width="100" height="100" data-clock="image=round1.gif shadowcolor=#888877
- bgcolor=#EEEEdd textcolor=#FF0088 handcolor=#FFFFFF textsize=12" style="vertical-align:middle"></canvas>
-</td><td>
-</td></tr></Table>
+<!-- Интерактивный конструктор часов — реконструкция апплета Clockconkit.class
+     на JavaScript (clock-kit.js + clock-canvas.js): меняешь параметры → живой
+     предпросмотр → готовый код для вставки. Оригинальный класс — в original-java/. -->
+<div id="clock-kit" style="max-width:640px;margin:0 auto"></div>
 </center>
 <br>
 
@@ -69,6 +60,7 @@ document.write("Updated ("+document.lastModified+")");
 
 
 <script src="clock-canvas.js"></script>
+<script src="clock-kit.js"></script>
 <script src="era-banners.js"></script>
 <script src="fix-images.js"></script>
 </BODY>
