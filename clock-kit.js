@@ -24,7 +24,7 @@
     var root = document.getElementById('clock-kit');
     if (!root) return;
 
-    var st = { image: 'rol.gif', width: 76, height: 84, textsize: 14,
+    var st = { image: 'rol.gif', width: 76, height: 94, textsize: 14,
                handcolor: '#000000', shadowcolor: '#888877', bgcolor: '#eeeedd',
                textcolor: '#771100', timeoffset: '' };
 

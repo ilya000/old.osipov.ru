@@ -73,13 +73,24 @@
     ctx.restore();
   }
 
+  var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var MONS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+              'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
   function makeDrawer(canvas, p, img) {
     var W = canvas.width, H = canvas.height;
     var ctx = canvas.getContext('2d');
-    var cx = W / 2, cy = H / 2, R = Math.min(W, H) / 2;
+    // Циферблат — квадрат в верхней части; «лишняя» высота (H − диаметр
+    // циферблата) внизу — полоса под дату, как у оригинальных апплетов
+    // (они были выше, чем шире: 76x84, 44x59 …).
+    var R = Math.min(W, H) / 2;
+    var cx = W / 2, cy = R;
+    var stripTop = R * 2;                  // низ циферблата = верх полосы текста
     var hand_c = p.handcolor || '#000000';
     var shadow_c = p.shadowcolor || 'rgba(0,0,0,0.35)';
     var bg = p.bgcolor || null;
+    var text_c = p.textcolor || null;
+    var textsize = p.textsize ? parseInt(p.textsize, 10) : 0;
     var off = (p.timeoffset != null) ? parseInt(p.timeoffset, 10) : null;
     var sh = Math.max(1, R * 0.06); // сдвиг тени
 
@@ -87,7 +98,7 @@
       ctx.clearRect(0, 0, W, H);
       if (bg) { ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H); }
       if (img && img.complete && img.naturalWidth) {
-        ctx.drawImage(img, 0, 0, W, H);
+        ctx.drawImage(img, cx - R, 0, R * 2, R * 2);   // квадрат, без растяжения
       } else {
         fallbackDial(ctx, cx, cy, R, hand_c);
       }
@@ -118,6 +129,20 @@
       ctx.beginPath();
       ctx.arc(cx, cy, Math.max(1.5, R * 0.06), 0, 2 * Math.PI);
       ctx.fill();
+
+      // дата текстом в нижней полосе (textcolor / textsize)
+      if (text_c && textsize > 0 && H - stripTop > 4) {
+        var label = DAYS[t.getDay()] + ' ' + t.getDate() + ' ' + MONS[t.getMonth()];
+        var fs = Math.min(textsize, H - stripTop - 1);
+        ctx.fillStyle = text_c;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'bottom';
+        ctx.font = fs + 'px sans-serif';
+        while (fs > 5 && ctx.measureText(label).width > W - 2) {
+          fs -= 1; ctx.font = fs + 'px sans-serif';
+        }
+        ctx.fillText(label, W / 2, H - 1);
+      }
     };
   }
 
