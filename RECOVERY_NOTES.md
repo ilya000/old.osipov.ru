@@ -3,9 +3,9 @@
 ## Current project
 - Project root: /Users/ilya000/Dropbox/Claude My/old.osipov.ru
 - Intended GitHub Pages domain: `old.osipov.ru`
-- Site files outside `_backup`: 231
-- Archive/no-git files inside `_backup`: 313
-- HTML pages: 58
+- Site files outside `_backup`: 315
+- Archive/no-git files inside `_backup`: 513
+- HTML pages: 117
 
 ## Important recovered items
 - `hookdump.zip` recovered locally and copied to project root; deliberately unignored so it is part of the public project.
@@ -60,7 +60,7 @@ HookDump files are preserved as historical artifacts only. Do not execute the Wi
 
 ## Backup layout
 
-`_backup/` is ignored by git and contains all collected source material and metadata. The restored static site lives in the project root.
+`_backup/` is ignored by git and contains all collected source material and metadata. The restored static site lives in the project root. GitHub Pages is configured from `main` / repository root with `old.osipov.ru` as the custom domain.
 
 - `_backup/wayback-metadata/` - Internet Archive CDX/manifests/audits.
 - `_backup/no-git/hookdump/` - HookDump local historical files and Delphi/Pascal project material.
